@@ -1,0 +1,19 @@
+#function: uses keyword def
+def ab():
+    for x in range(10):
+        print("Hello World")
+l1=["aim",'value','ambition']
+for i in l1:
+    print(i)
+def add(num1,num2):
+    print("the addition of two values",(num1+num2))
+def user():
+    x=input("Enter the name:")
+    print("Nice to meet you",x)
+user()
+#Advance argument passing :1.Positional Argument
+def arg(name,clas,marks):
+    print("Hey this is",name,"from",clas,"scoring",marks,"marks")
+#frozen set 
+abba=frozenset([1,2,3])
+print(abba)
