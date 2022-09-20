@@ -1,0 +1,25 @@
+#tuples
+t1=(1,2,3,2,4)
+t2=(1,'high','3+6i',False)
+l1=[1,2,5]
+t3=(23,45,l1)
+print(t1,t2,t3)
+print(t1+t2,t3[2][1],t2[1][3])
+print(type(l1),type(t3),type(t2))
+t4=('p','e','r','s','o','n')
+print(t4[0],t4[-3])
+t3[2][1]=7
+print(t3,t1.count(2))
+del t2
+print('o' in t4)
+for name in ('John', 'Kate'):
+    print("Hello", name)
+    
+#dictionaries
+d1={'class':'LKG','grade':'A+','height':120, "colors": ["red", "white", "blue"]}
+d2=dict(Colorado='Rockies',Boston='Red Sox',Minnesota='Twins',Seattle='Mariners')
+print(d1,d2)
+print(type(d1),len(d2))
+d2['Ohio']='Royals'
+d2['Seattle'] = 'Seahawks'
+print(d2)
