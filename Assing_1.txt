@@ -1,20 +1,24 @@
-#function: uses keyword def
-def ab():
-    for x in range(10):
-        print("Hello World")
-l1=["aim",'value','ambition']
-for i in l1:
-    print(i)
-def add(num1,num2):
-    print("the addition of two values",(num1+num2))
-def user():
-    x=input("Enter the name:")
-    print("Nice to meet you",x)
-user()
-#Advance argument passing :1.Positional Argument
-def arg(name,clas,marks):
-    print("Hey this is",name,"from",clas,"scoring",marks,"marks")
-#frozen set 
-abba=frozenset([1,2,3])
-print(abba)
-abba.add(4)
+l1=[1,1,2,3,"wright",True,"3+4i"]
+l2=[5,6,9,"read",False,30.24]
+print(l1,l2)
+print(min([1,2,3]))
+print(max([5,6,9,30.24]))
+print(l1+l2)
+l2.append("5+6i")
+l1.extend("hi")
+l1.insert(4, 'makes')
+l1.insert(5, 'learning')
+l1.insert(6, 'fun!')
+l1.remove('makes')
+l1.pop(4)
+print(l1)
+l2.reverse()
+print(l2,len(l1))
+print(l1*2)
+print(l1.count(1))
+print(l1.index('wright'))
+l3=[20,56,87,1,54,44]
+L3=l3.sort()
+print(L3)
+l2.clear()
+print(l2)
