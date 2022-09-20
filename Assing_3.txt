@@ -17,3 +17,24 @@ def arg(name,clas,marks):
 #frozen set 
 abba=frozenset([1,2,3])
 print(abba)
+def key(name,marks,city,subject):
+    print("Hi my name is",name ,"and i scored",marks ,"i am from",city ,"my fav sub is",subject )
+key("Amy",45,"Jaipur","Maths")#positional argument 
+def sum(a,b):
+    return a+b
+def nil(name,section):
+    print("Welcome",name,"from", section)
+    print("Enter marks")
+    mark1=int(input("Enter marks of test 1 "))
+    mark2=int(input("Enter marks of test 2 "))
+    print("Total score is",sum(mark1,mark2))
+
+#default arguments 
+def cool(name="Dev",city="Delhi",sal="15L per annum"):
+    print("Hey there I am",name,"from",city,"earni0ng",sal)
+cool("Bhai","Surat")
+def func(teacher,*args):
+    print("The teachers name is",teacher)
+    for rollno in args:
+        print("the students are",rollno)
+func("Jerry",1,2,45)
